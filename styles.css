@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body, html {
+    font-family: 'Roboto Mono';
+    font-size: 10px;
+}
+.group-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 350px;
+    word-wrap: break-word;
+}
+.group-logo {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.group-text {
+    display: flex;
+    flex-direction: column;
+}
+.group-title-link {
+    font-family: 'Roboto Mono';
+    font-size: 10px;
+    margin: 0 0 5px 0;
+    color: #4d4d4d;
+    text-decoration: none;
+}
+.group-title-link:hover {
+    color: #4d4d4d;
+    text-decoration: underline;
+}
+.group-title-link:visited {
+    color: #4d4d4d;
+}
+.group-description {
+    font-family: 'Montserrat';
+    font-size: 8px;
+    margin: 0;
+}
+#visualization {
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+}
+h1,h2,h3,h4,h5,h6,h7 {
+    font-family: 'Montserrat';
+}
+.vis-label.purple {
+    background-color: #E1D5E7;
+}
+.vis-label.green {
+    background-color: #D5E8D4;
+}
+.vis-label.orange {
+    background-color: #FFE6CC;
+}
+.vis-label.red {
+    background-color: #F8CECC;
+}
+.vis-label.blue {
+    background-color: #DAE8FC;
+}
+.vis-item.purple {
+    border-color: #9673A6;
+    background-color: #9673A6;
+}
+.vis-item.green {
+    border-color: #82B366;
+    background-color: #82B366;
+}
+.vis-item.orange {
+    border-color: #D79B00;
+    background-color: #D79B00;
+}
+.vis-item.red {
+    border-color: #B85450;
+    background-color: #B85450;
+}
+.vis-item.blue {
+    border-color: #6C8EBF;
+    background-color: #6C8EBF;
+}
