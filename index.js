@@ -2,9 +2,8 @@ import { Timeline, DataSet } from "vis-timeline/standalone";
 import moment from "moment";
 import cronParser from "cron-parser";
 import "./styles.css";
-import jobData from "./jobs.json";
 
-export function generateTimeline() {
+export function timeline(jobData) {
   // Set the locale to German
   moment.locale("de");
 
