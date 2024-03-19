@@ -1,5 +1,5 @@
 {
-  "name": "timeline",
+  "name": "vis-timeline-cron-parser",
   "version": "1.0.0",
   "dependencies": {
     "cron-parser": "^4.9.0",
